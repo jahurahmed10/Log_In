@@ -4,8 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log In</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="Login-container">
+        <div class="Login-box">
+            <h2>Login</h2>
+            <form action="#" mathod="POST">
+                <div class="input-name">
+                    <label for="username">Username</label>
+                    <div class="input-icon">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" id="username" placeholder="Type your username" >
+                    </div>
+                </div>
+                <div class="input-name">
+                    <label for="password">password</label>
+                    <div class="input-icon">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="password" placeholder="Type your password">
+                    </div>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="login-button">LOGIN</button>
+            </form>
+            <p class="Sign-up">Or sign up using</p>
+            <div class="Social-icon">
+                <a href="https://www.facebook.com/login/" target="_blank" > <img width="30px" src="Images/facebook.png" alt="Facebook"></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"> <img src="Images/gmail.png" width="30px" alt="Gmail"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="Images/linkdin.png" width="30px" alt="Linkdin"></a>
+            </div>
+            <p class="Sign-up">Or sign up using </p>
+            <a href="#" class="Signup-link">SIGN UP</a>
+        </div>
+    </div>
 </body>
 </html>
